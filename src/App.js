@@ -9,7 +9,7 @@ import DynamicPage from './components/user/DynamicPage';
 import store, { persistor } from './redux/store';
 import { theme } from "./assets/styles/theme";
 import { CssBaseline, AppBar, Toolbar, Typography, Button, Box, CircularProgress } from '@mui/material';
-import { AdminPanelSettings as AdminIcon, Public as PublicIcon } from '@mui/icons-material';
+import { AdminPanelSettings as AdminIcon} from '@mui/icons-material';
 
 const newTheme = createTheme(theme);
 

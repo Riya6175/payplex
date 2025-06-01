@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Plus } from 'lucide-react';
-import { addPage, updatePage, deletePage, toggleStatus } from '../../redux/slices/PageSlice';
+import { addPage, deletePage, toggleStatus } from '../../redux/slices/PageSlice';
 import { PageFormDialog } from './PageForm';
 import PageTable from './PageTable';
 
